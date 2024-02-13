@@ -62,13 +62,13 @@ public class NewToursPage {
 		
 		String arrivingLocationXpath = "//*[@name=\'toPort\']//*[contains(text(),'dynamicValue')]";
 		app.click(toPort);
-		String toPortDropdown = "Sydney";
+		String toPortDropdown = "Paris";
 		String toPortDropdownSelect = arrivingLocationXpath.replace("dynamicValue", toPortDropdown);
 		app.click(By.xpath(toPortDropdownSelect));
 		
 		String toMonthXpath = "//*[@name='toMonth']//*[contains(text(),'dynamicValue')]";
 		app.click(toMonth);
-		String toMonthDropdown = "October";
+		String toMonthDropdown = "November";
 		String toMonthDropdownSelect = toMonthXpath.replace("dynamicValue", toMonthDropdown);
 		app.click(By.xpath(toMonthDropdownSelect));
 		

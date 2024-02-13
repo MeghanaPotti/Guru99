@@ -35,16 +35,24 @@ public class TelecomAddCustomerPage {
 	        app.waitForSeconds(2);
 	  }  
 	
-	public void addNewCustomer(String firstName, String lastName, String email, String mobileNum) {
+	public void addNewCustomer(String firstName, String lastName, String email, String address, String mobileNum) {
 		
 	app.click(telecomProjectOption);
 	app.waitForSeconds(2);
 	app.click(addCustomerOption);
+	app.waitForSeconds(2);
 	app.click(doneRadioButton);
+	app.waitForSeconds(2);
 	app.sendKeys(firstNameInput, firstName);
+	app.waitForSeconds(2);
 	app.sendKeys(lastNameInput, lastName);
+	app.waitForSeconds(2);
 	app.sendKeys(emailInput, email);
+	app.waitForSeconds(2);
+	app.sendKeys(addressInput, address);
+	app.waitForSeconds(2);;
 	app.sendKeys(mobileNumInput, mobileNum);
+	app.waitForSeconds(2);
 	app.click(submitButton);
 	
 	}

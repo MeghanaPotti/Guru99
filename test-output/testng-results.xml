@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-11T22:50:30 IST" name="Default suite" finished-at="2024-02-11T22:51:02 IST" duration-ms="31853">
+  <suite started-at="2024-02-13T22:31:53 IST" name="Default suite" finished-at="2024-02-13T22:32:38 IST" duration-ms="44993">
     <groups>
     </groups>
-    <test started-at="2024-02-11T22:50:30 IST" name="Default test" finished-at="2024-02-11T22:51:02 IST" duration-ms="31853">
-      <class name="Guru99.Tests.NewToursTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Guru99.Tests.NewToursTest@c667f46]" started-at="2024-02-11T22:50:30 IST" name="setUp" finished-at="2024-02-11T22:50:35 IST" duration-ms="4879" status="PASS">
+    <test started-at="2024-02-13T22:31:53 IST" name="Default test" finished-at="2024-02-13T22:32:38 IST" duration-ms="44993">
+      <class name="Guru99.Tests.TelecomAddCustmerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Guru99.Tests.TelecomAddCustmerTest@c667f46]" started-at="2024-02-13T22:31:53 IST" name="setUp" finished-at="2024-02-13T22:31:58 IST" duration-ms="4981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newTours()[pri:0, instance:Guru99.Tests.NewToursTest@c667f46]" started-at="2024-02-11T22:50:35 IST" name="newTours" finished-at="2024-02-11T22:51:01 IST" duration-ms="26360" status="PASS">
+        <test-method signature="addCustomer()[pri:0, instance:Guru99.Tests.TelecomAddCustmerTest@c667f46]" started-at="2024-02-13T22:31:58 IST" name="addCustomer" finished-at="2024-02-13T22:32:37 IST" duration-ms="39302" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newTours -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Guru99.Tests.NewToursTest@c667f46]" started-at="2024-02-11T22:51:01 IST" name="tearDown" finished-at="2024-02-11T22:51:02 IST" duration-ms="544" status="PASS">
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Guru99.Tests.TelecomAddCustmerTest@c667f46]" started-at="2024-02-13T22:32:37 IST" name="tearDown" finished-at="2024-02-13T22:32:38 IST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Guru99.Tests.NewToursTest -->
+      </class> <!-- Guru99.Tests.TelecomAddCustmerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
