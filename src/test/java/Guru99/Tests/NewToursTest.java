@@ -15,6 +15,6 @@ public class NewToursTest extends BaseClass{
 		newToursObject.findingFlights();
 		WebActions.waitForPageToLoad(driver);
 		captureScreenshot("newTours");
-		
+		System.out.println(" validating Flight booking page method in new tours");
 	}
 }
